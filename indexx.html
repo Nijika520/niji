@@ -46,13 +46,13 @@
     <div class="content">
         <h2>😎</h2>
         <div class="timer">
-            倒计时 <b id="d"></b> 天 <b id="h"></b> 时 <b id="m"></b> 分 <b id="s"></b> 
+            倒计时 <b id="d"></b> 天 <b id="h"></b> 时 <b id="m"></b> 分 <b id="s"></b> 秒
         </div>
     </div>
 
     <script>
         function timer() {
-            var start = new Date(2022, 9, 25); // 2023.12.26
+            var start = new Date(2022, 11, 25); // 2023.12.26
             var t = new Date() - start;
             var h = ~~(t / 1000 / 60 / 60 % 24);
             if (h < 10) {
